@@ -5,6 +5,9 @@ The animal groups are A, B, and C. During comparison all were compared such as A
 # Main steps
 
 ## Test analysis with example dataset
+Using pathfindR Enrichment Workflow, I used the RA_input example dataset:
+Most important is the dataformat which is recognized by the command (all dataset must be transformed into that format). Gene.symbol, logFC, and adj.P.Val.
+The protein-protein interaction network (PIN) pin_name_path can be: “Biogrid”, “STRING”, “GeneMania”, “IntAct”, “KEGG”, “mmu_STRING”. Furthermore, the available gene sets in pathfindR are “KEGG”, “Reactome”, “BioCarta”, “GO-All”, “GO-BP”, “GO-CC” and “GO-MF”.
 
 ## Adjusting tested code to dataset and use for analysis
 
