@@ -88,13 +88,13 @@ visualize_terms(result_df = final_res,
 
 head(final_res)
 View(final_res)
-enrichment_chart(final_res[1:5, ]) #error
+
 
 
 visualize_active_subnetworks(final_res) #worked - separated folder
 
 term_gene_heatmap(final_res) #worked
-visualize_term_interactions(final_res) #error
-visualize_terms(final_res) #error
+
+
 UpSet_plot(final_res) #worked
 term_gene_graph(final_res) #worked
