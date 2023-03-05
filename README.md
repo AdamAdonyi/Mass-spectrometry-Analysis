@@ -7,7 +7,7 @@ The animal groups are A, B, and C. During comparison all were compared such as A
 ## Test analysis with example dataset
 Using [pathfindR](https://cran.r-project.org/web/packages/pathfindR/index.html) Enrichment Workflow, I used the RA_input example dataset:
 Most important is the dataformat which is recognized by the command (all dataset must be transformed into that format). Gene.symbol, logFC, and adj.P.Val.
-The protein-protein interaction network (PIN) pin_name_path can be: “Biogrid”, “STRING”, “GeneMania”, “IntAct”, “KEGG”, “mmu_STRING”. Furthermore, the available gene sets in pathfindR are “KEGG”, “Reactome”, “BioCarta”, “GO-All”, “GO-BP”, “GO-CC” and “GO-MF”.
+The protein-protein interaction network (PIN) pin_name_path can be: “Biogrid”, “STRING”, “GeneMania”, “IntAct”, “KEGG”, “mmu_STRING”. Furthermore, the available gene sets in pathfindR are “KEGG”, “Reactome”, “BioCarta”, “GO-All”, “GO-BP”, “GO-CC” and “GO-MF”. Check out the [Analysis_example_dataset.R](https://github.com/AdamAdonyi/Mass-spectrometry-Analysis/blob/main/Analysis_example_dataset.R) to figure out what I used.
 
 <p align="center">
   <img src="https://github.com/AdamAdonyi/Mass-spectrometry-Analysis/blob/main/Change_example.png" width="400" height="400" /> 
@@ -27,5 +27,6 @@ The protein-protein interaction network (PIN) pin_name_path can be: “Biogrid�
 
 
 ## Adjusting tested code to dataset and use for analysis
+
 
 ## Results
