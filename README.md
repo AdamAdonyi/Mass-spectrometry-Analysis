@@ -27,6 +27,6 @@ The protein-protein interaction network (PIN) pin_name_path can be: â€œBiogridâ€
 
 
 ## Adjusting tested code to dataset and use for analysis
-
+After loading LFQ datasets, and reformating to have the rigth column names and structure, the same method was used on all focusing on "KEGG" as gene_sets/pin_name_path, and "bonferroni" as adj_method. Some of the visualization function is not functional furthermore only AvsB and BvsC gave relevant results.
 
 ## Results
