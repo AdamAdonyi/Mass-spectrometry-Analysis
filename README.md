@@ -30,3 +30,12 @@ The protein-protein interaction network (PIN) pin_name_path can be: â€œBiogridâ€
 After loading LFQ datasets, and reformating to have the rigth column names and structure, the same method was used on all focusing on "KEGG" as gene_sets/pin_name_path, and "bonferroni" as adj_method. Some of the visualization function is not functional furthermore only AvsB and BvsC gave relevant results.
 
 ## Results
+Different pathways were identified as affected ones comparing A, B and C conditions. Beside of the heatmaps, heatmap with interaction and Upset plots, a summarized excel was also experoted with all the relevant genes and their most important metrics. [AvsB](https://github.com/AdamAdonyi/Mass-spectrometry-Analysis/tree/main/AvsB), [BvsC](https://github.com/AdamAdonyi/Mass-spectrometry-Analysis/tree/main/BvsC)
+
+
+
+Example for BvsC:
+<p align="center">
+  <img src="https://github.com/AdamAdonyi/Mass-spectrometry-Analysis/blob/main/BvsC/UpSetPlot.png" width="400" height="400" /> 
+</p>
+
